@@ -1,0 +1,16 @@
+vscode/extensions
+node_modules
+dist
+build
+coverage
+.DS_Store
+.env
+*.log
+.idea
+.vscode
+*.swp
+*.swo
+thumbs.db
+*.bak
+*.tmp
+*.old

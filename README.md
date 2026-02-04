@@ -17,6 +17,56 @@ This directory contains configuration files for coding agents and skills. Each f
 
 To utilize these configurations, copy the desired file into your coding agent or skill's configuration directory.
 
+## Quick Start
+
+### For Web Projects (Default)
+
+Just use `CLAUDE.md` - it's optimized for:
+
+- TypeScript, React, Next.js
+- Three.js, React Three Fiber
+- Bun package management
+- Modern web development
+
+### For iOS Projects
+
+1. Reference `CLAUDE.md` for core principles
+2. Use `guides/platforms/IOS.md` for Swift/SwiftUI specifics
+3. Follow same Phase 1-5 workflow
+
+### For Android Projects
+
+1. Reference `CLAUDE.md` for core principles
+2. Use `guides/platforms/ANDROID.md` for Kotlin/Jetpack specifics
+3. Follow same Phase 1-5 workflow
+
+### For WebAssembly Projects
+
+1. Reference `CLAUDE.md` for core principles
+2. Use `guides/platforms/WASM.md` for Rust/Emscripten specifics
+3. Follow same Phase 1-5 workflow
+
+## Guide Categories
+
+### Core Practices (Platform-Agnostic)
+
+These apply to all development:
+
+- **DEPENDENCIES.md** - Package management philosophy
+- **SECURITY.md** - Security best practices
+- **API_INTEGRATION.md** - API client patterns
+- **ACCESSIBILITY.md** - a11y requirements
+- **I18N.md** - Internationalization
+- **DEBUGGING.md** - Systematic debugging process
+
+### Platform Guides
+
+Platform-specific implementation details:
+
+- **IOS.md** - Apple ecosystem development
+- **ANDROID.md** - Android ecosystem development
+- **WASM.md** - High-performance web compilation
+
 ### Customization
 
 Feel free to modify the configurations to better suit your workflow and project requirements. Ensure that any changes align with your overall coding standards and practices.

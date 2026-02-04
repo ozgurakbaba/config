@@ -5,6 +5,7 @@ This directory contains configuration files for coding agents and skills. Each f
 ### Files
 
 - `.claude/CLAUDE.md`: Configuration for the Claude coding agent, including foundational rules, relationship guidelines, and coding standards.
+- `.gemini/GEMINI.md`: Configuration for the Gemini coding agent, detailing operational parameters, ethical constraints, and technical standards for the Orion AI collaborator.
 - `.local.md`: Local configuration settings specific to the user's environment and preferences.
 
 ### Usage
@@ -18,3 +19,5 @@ Feel free to modify the configurations to better suit your workflow and project 
 ### References
 
 - [Claude Coding Agent Documentation](https://code.claude.com/docs)
+- [Gemini Coding Agent Documentation](https://gemini.ai/docs)
+- [Skills.sh Documentation](https://skills.sh/docs)

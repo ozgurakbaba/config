@@ -2,7 +2,7 @@
 
 _Configuration for Claude Code (claude.ai/code) when working in this repository._
 
-**Version:** 3.0  
+**Version:** 1.3  
 **Last Updated:** 2026-02-03
 
 ---

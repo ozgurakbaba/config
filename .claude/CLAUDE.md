@@ -2,7 +2,7 @@
 
 _Configuration for Claude Code (claude.ai/code) when working in this repository._
 
-**Version:** 1.3  
+**Version:** 3.0  
 **Last Updated:** 2026-02-03
 
 ---
@@ -57,11 +57,24 @@ Making up technical details violates trust and causes failures.
 
 ---
 
-## Tech Stack
+## Tech Stack & Platform Support
+
+### Primary Platform: Web
 
 - **Core:** TypeScript (Strict), React 19+, Next.js (App Router), Bun, Vite, Tailwind
 - **Spatial/3D:** Three.js, @react-three/fiber, pmndrs (Drei/Cannon), XR Blocks (Google), IWSDK (Meta)
 - **Testing:** Playwright, Vitest/Jest, Storybook
+
+### Additional Platforms
+
+For platform-specific development, see:
+
+- **[iOS Development](./guides/platforms/IOS.md)** - Swift, SwiftUI, UIKit, ARKit
+- **[Android Development](./guides/platforms/ANDROID.md)** - Kotlin, Jetpack, Android XR, ARCore
+- **[WebAssembly](./guides/platforms/WASM.md)** - Emscripten, WASI, optimization
+
+### Resources
+
 - **Skills Hub:** [skills.sh](https://skills.sh/) for domain-specific patterns
 
 ---
@@ -197,7 +210,7 @@ Skip TDD for:
 
 ## Reference Guides
 
-For detailed implementation patterns and best practices, see:
+### Core Practices
 
 - **[Dependency Management](./guides/DEPENDENCIES.md)** - Bun/Node.js, package updates, version conflicts
 - **[Security Practices](./guides/SECURITY.md)** - API keys, CORS, XSS, CSP, authentication, input validation
@@ -205,6 +218,12 @@ For detailed implementation patterns and best practices, see:
 - **[Accessibility (a11y)](./guides/ACCESSIBILITY.md)** - WCAG compliance, ARIA, keyboard navigation, 3D/spatial
 - **[Internationalization (i18n)](./guides/I18N.md)** - next-intl setup, translations, formatting, RTL support
 - **[Systematic Debugging](./guides/DEBUGGING.md)** - Root cause analysis, debugging process
+
+### Platform-Specific Guides
+
+- **[iOS Development](./guides/platforms/IOS.md)** - Swift, SwiftUI, UIKit, ARKit, Xcode, TestFlight
+- **[Android Development](./guides/platforms/ANDROID.md)** - Kotlin, Jetpack Compose, Android XR, ARCore
+- **[WebAssembly](./guides/platforms/WASM.md)** - Emscripten, Rust/C++ compilation, optimization
 
 ---
 
@@ -232,7 +251,10 @@ For detailed implementation patterns and best practices, see:
 
 | Version | Date       | Changes                                                             |
 | ------- | ---------- | ------------------------------------------------------------------- |
+| 1.3     | 2026-02-03 | Added platform guides: iOS, Android, WebAssembly                    |
 | 1.2     | 2026-02-03 | Refactored into lightweight main + separate guide files             |
 | 1.1     | 2026-02-03 | Added: Dependency Management, Security, API Integration, a11y, i18n |
 | 1.0     | 2026-02-03 | Streamlined, resolved contradictions, removed redundancy            |
-| .1      | [Previous] | Initial version                                                     |
+| 0.1     | [Previous] | Initial version                                                     |
+
+_Update this table when you modify the document._
